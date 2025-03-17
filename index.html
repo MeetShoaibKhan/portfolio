@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero" id="home">
+            <h1>Creative Developer</h1>
+            <p>Building immersive digital experiences with cutting-edge technology.</p>
+            <!-- <a href="#projects" class="btn">View My Work</a> -->
+            <a href="#projects" class="view-work-btn">View My Work</a>
+
+        </section>
+
+        <section class="project-section" id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Interactive 3D Visualization</h3>
+                    <p>A data visualization project using WebGL and Three.js to represent complex datasets in 3D space.</p>
+                    <a href="#" class="btn rounded-corners">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Immersive Web Experience</h3>
+                    <p>An award-winning interactive storytelling experience with 3D elements and procedural animations.</p>
+                    <a href="#" class="btn rounded-corners">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>WebXR Application</h3>
+                    <p>A virtual reality training application built with Three.js and WebXR API for enterprise clients.</p>
+                    <a href="#" class="btn rounded-corners">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a creative developer with a passion for building immersive digital experiences that blend art and technology. With expertise in 3D web development, interactive design, and frontend engineering, I create engaging web applications that push the boundaries of what's possible on the web.</p>
+                    <p>My journey began with traditional web development, but I quickly became fascinated with the potential of WebGL and Three.js to create stunning visual experiences. Today, I specialize in creating portfolio websites, interactive visualizations, and immersive web applications for clients across various industries.</p>
+                    <h3>Skills</h3>
+                    <ul class="skills-list">
+                        <li>Three.js / WebGL</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>React.js / Vue.js</li>
+                        <li>GLSL Shaders</li>
+                        <li>3D Modeling</li>
+                        <li>Responsive Design</li>
+                        <li>WebXR / AR / VR</li>
+                        <li>Creative Coding</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in working together? Have questions about my work? I'd love to hear from you!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn rounded-corners">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Creative Portfolio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
